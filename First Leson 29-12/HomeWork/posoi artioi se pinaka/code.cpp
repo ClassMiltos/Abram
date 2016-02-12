@@ -5,33 +5,28 @@ using namespace std;
 int main()
 {
 
-	int y,x,d,p,u;
+	int table[5],i,u,x;
 
-	cin>>x;
-	cin>>y;
+    for(i=0;i<5;i=i+1)
+    {
+        cin>>table[i];
+    }
+    for(i=0;i<5;i=i+1)
+    {
+        u=table[i]%2;
+
+        if(u==1)
+        {
+            cout<<table[i]<<endl;
+        }
 
 
 
-    p=x/2;
 
-	u=x-2*p;
 
-    cout<<endl;
+    }
 
-	if(u>=1)
-	{
-		for(x=x+1;x<=y;x=x+2)
-		{
-			cout<<x<<endl;
-		}
-	}
-	else
-	{
-		for(x;x<=y;x=x+2)
-		{
-			cout<<x<<endl;
-		}
-	}
+
 
 	return 0;
 
