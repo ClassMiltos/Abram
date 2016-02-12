@@ -4,17 +4,14 @@ using namespace std;
 
 int main ()
 {
-  int x,y,v;
+  int i,x;
 
-  x=4;
-  y=3;
+  cin>>x;
 
-  v=x+y;
-  x=v-x;
-  y=v-y;
+  for(i=1;i<=x;i=i+1)
+  {
 
-  cout<<x<<endl;
-  cout<<y<<endl;
+  }
 
   return 0;
 
